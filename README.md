@@ -1,24 +1,6 @@
 # vue-env-boilerplate
 
-## Project setup
-```
-yarn install
-```
+## fix: vue Parsing error: x-invalid-end-tag
+`.eslintrc`中添加 rule `"vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]`
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vscode setting 中添加 `"vetur.validation.template": false,`
